@@ -39,6 +39,13 @@ body {
     padding: 40px 0 0;
 }
 
+/*Ajustes de imagenes kawaii*/
+.head-banner img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+}
 /* Sección de entrada */
 .input-section {
     flex: 60%;
