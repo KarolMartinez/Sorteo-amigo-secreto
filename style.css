@@ -38,13 +38,15 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
- /*Ajustes de imagenes kawaii*/
+}
+    .header-banner img {
+    /*Ajustes de imagenes kawaii*/
     width: 100%;
-    max-width: 250px;
+    max-width: 100px; /*Ajuste de tamaño de imagen*/
     height: auto;
     display: block;
 }
-/* Sección de entrada */
+ /* Sección de entrada */
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
