@@ -16,6 +16,7 @@
 }
 
 body {
+    font-family: "Pangolin", cursive;
     height: 100vh;
     background-color: var(--color-primary);
     display: flex;
@@ -37,10 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
-}
-
-/*Ajustes de imagenes kawaii*/
-.head-banner img {
+ /*Ajustes de imagenes kawaii*/
     width: 100%;
     max-width: 250px;
     height: auto;
@@ -107,7 +105,7 @@ body {
     border: 2px solid #333;
     border-right: none;
     border-radius: 25px 0 0 25px;
-    font-family: "Merriweather", serif;
+    font-family: "Caveat", cursive;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -115,7 +113,7 @@ body {
 button {
     padding: 15px 30px;
     font-family: "Caveat", cursive;
-    font-size: 16px;
+    font-size: 20px;
     border: 2px solid #000;
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -136,7 +134,7 @@ button {
 ul {
     list-style-type: none;
     color: var(--color-text);
-    font-family: "Inter", sans-serif;
+    font-family: "Caveat", cursive;
     font-size: 18px;
     margin: 20px 0;
 }
@@ -157,7 +155,7 @@ ul {
     padding: 10px 40px;
     color: var(--color-white);
     background-color: var(--color-button);
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .button-draw img {
