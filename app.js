@@ -3,7 +3,8 @@
 let amigos = [];
 
 // Función para agregar un amigo a la lista
-function agregarAmigo() {
+function agregarAmigo() 
+{
     let input = document.getElementById("amigo");
     let nombre = input.value.trim(); // Eliminamos espacios extra
 
@@ -15,16 +16,15 @@ function agregarAmigo() {
 
     // Agregamos el nombre al array
     amigos.push(nombre);
-
+    actualizarLista();
     // Limpiamos el campo de entrada
     input.value = "";
 
-    // Actualizamos la lista en la página
-    actualizarLista();
 }
 
 // Función para actualizar la lista de amigos en el HTML
-function actualizarLista() {
+function actualizarLista() 
+{
     let lista = document.getElementById("listaAmigos");
     lista.innerHTML = ""; // Limpiamos la lista antes de actualizar
 
@@ -34,6 +34,7 @@ function actualizarLista() {
         lista.appendChild(li);
     });
 }
+
 
 // Función para sortear un amigo al azar
 function sortearAmigo() {
